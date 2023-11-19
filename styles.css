@@ -1,0 +1,304 @@
+
+body{
+    font-family: "Monserrat";
+}
+
+#section_1 {
+    background-image: url("https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    overflow: auto;
+    text-align: center;
+  }
+  
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* fonts */
+
+/* Nav-Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+/*Buttons*/
+
+.r-more{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+#section_1 #section_1_content {
+    text-align: center;
+    padding-right: 9em;
+    display: inline-block;
+ }
+  #section_1 #content_text_area {
+    float: left;
+    margin-left: 6em;
+    padding-top: 6em;
+    text-align: left; }
+  #section_1 #content_text_header {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 44px;
+    margin: 0 0 4px 0; }
+  #section_1 .content_text_body {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    margin: 0 0 5px 0; }
+  #section_1 #read_more_button {
+    color: white;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #FF6D59;
+    margin-top: 2em;
+    width: 150px;
+    height: 44px;
+    border-radius: 4px;
+    font-size: 16px; }
+
+    @media (max-width: 1250px) {
+        #section_1 {
+          position: relative;
+          padding-bottom: 4em; }
+          #section_1 #content_text_area {
+            float: right;
+            margin: 8em 0 0 2em;
+            padding: 0; }
+          #section_1 #iphone_image {
+            position: absolute;
+            bottom: 0px;
+            left: 40px;
+            width: 200px;
+            height: 260px;
+            padding-left: 4em; }
+          #section_1 #section_1_content {
+            margin-top: -6em;
+            float: none; } }
+      @media (max-width: 1000px) {
+        #section_1 #iphone_image {
+          position: absolute;
+          bottom: 0px;
+          left: 40px;
+          width: 180px;
+          height: 250px; } }
+      @media (max-width: 700px) {
+        #section_1 #navbar #navbar_menu_items {
+          float: left; } }
+
+    @media (min-width: 850px) and (max-width: 1000px) {
+        #section_1 {
+          position: relative;
+          padding-bottom: 4em; }
+          #section_1 #content_text_area {
+            float: right;
+            margin: 8em 0 0 12em;
+            padding: 0; }
+          #section_1 #iphone_image {
+            position: absolute;
+            margin: 0;
+            bottom: 0px;
+            left: 40px;
+            width: 180px;
+            height: 250px;
+            padding-left: 1.4em;
+            padding-right: 1em; }
+          #section_1 #top_nav {
+            margin-bottom: -5em; }
+          #section_1 #section_1_content {
+            margin-top: -6em;
+            margin-left: 2em; } }
+      @media (max-width: 810px) {
+        #section_1 #iphone_image {
+          display: none; }
+        #section_1 #appily_text {
+          margin-left: 3em; } }
+      @media (min-width: 0px) and (max-width: 450px) {
+        #section_1 #navbar ul {
+          float: left;
+          clear: both;
+          text-align: left; }
+        #section_1 #navbar ul li {
+          margin-top: 5px; }
+        #section_1 #section_1_content {
+          margin-top: -6em; } }
+
+/* section-2 */
+#rental-pricing{
+  background-color: #FF6D59; 
+  padding-bottom: 2rem;
+}
+.pricing-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pricing-card {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.pricing-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.pricing-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  margin-bottom: 10px;
+}
+
+.pricing-card h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.pricing-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#63c5da;
+  color:black;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.pricing-card .btn:hover {
+  background-color: gray;
+}
+
+.rent{
+  text-align: center;
+  padding: 2rem;
+}
+.rent-title{
+  font-family: Montserrat;
+  color: oldlace
+}
+.vehicle-name{
+  font-family: Monteserrat;
+}
+
+.vehicle-intro{
+  font-family: open sans;
+  color: grey;
+}
+
+.vehicle-price{
+  font-family: Motesserrat;
+  font-weight: bolder;
+}
+.offer{
+  font-family: Motesserrat;
+  font-weight: bolder;
+}
+
+.carousel-inner {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.review {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review .user-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: open sans;
+}
+
+.review .author {
+  font-weight: bold;
+}
+
+.reviews{
+  text-align: center;
+  font-family: Montserrat;
+  padding: 2rem;
+}
+
+.review-title{
+  color: brown;
+}
+
+#about-us {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #333333;
+}
+
+#about-us h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#about-us .signature {
+  font-style: italic;
+  color: whitesmoke;
+}
